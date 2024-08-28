@@ -10,15 +10,22 @@ document.addEventListener('DOMContentLoaded', function() {
     let servicesData = [];
 
     function fetchAndDisplayServices() {
-        fetch('https://brucebitchx.github.io/enteakshaya-demo/assets/json/services.json') // Make sure this is correct relative to your HTML file // URL to your JSON file
-            .then(response => response.json())
+        fetch('https://brucebitchx.github.io/enteakshaya-demo/assets/json/services.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
             .then(data => {
                 servicesData = data.services;
                 populateServiceList(servicesData);
             })
             .catch(error => {
                 console.error('Error fetching services:', error);
+                servicesList.innerHTML = '<p>Error loading services. Please try again later.</p>';
             });
+
     }
 
     function populateServiceList(services) {
