@@ -1,0 +1,513 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "category": "Certificate Services",
+        "name": "Income Certificate",
+        "description": "A document that certifies an individual's income, issued by the government.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof (Aadhaar, Voter ID)",
+          "Address proof (Ration card, utility bill)",
+          "Proof of income (Salary slip, Income Tax Return)"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Certificate Services",
+        "name": "Community / Caste Certificate",
+        "description": "A certificate that states the community or caste of an individual, used for various legal and educational purposes.",
+        "documents_needed": [
+          "Application form",
+          "Birth certificate",
+          "Parent's community certificate",
+          "Identity proof",
+          "Address proof"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Certificate Services",
+        "name": "Nativity Certificate",
+        "description": "A document that certifies that an individual is a native of a particular state or country.",
+        "documents_needed": [
+          "Application form",
+          "Birth certificate",
+          "Parent's nativity proof",
+          "Identity proof",
+          "Address proof"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Certificate Services",
+        "name": "Non-Creamy Layer Certificate",
+        "description": "A certificate that identifies an individual as belonging to the non-creamy layer of OBC, making them eligible for certain government benefits.",
+        "documents_needed": [
+          "Application form",
+          "Income certificate",
+          "Community certificate",
+          "Identity proof"
+        ]
+      },
+      {
+        "id": 5,
+        "category": "Certificate Services",
+        "name": "Possession Certificate",
+        "description": "A document that certifies the possession of a property by an individual.",
+        "documents_needed": [
+          "Application form",
+          "Proof of property ownership",
+          "Address proof"
+        ]
+      },
+      {
+        "id": 6,
+        "category": "Certificate Services",
+        "name": "Possession & Non-Attachment Certificate",
+        "description": "A certificate that indicates possession of property and absence of any attachments or encumbrances.",
+        "documents_needed": [
+          "Application form",
+          "Property documents",
+          "Address proof"
+        ]
+      },
+      {
+        "id": 7,
+        "category": "Certificate Services",
+        "name": "Family Membership Certificate",
+        "description": "A document that certifies the members of a family, often required for various legal and government processes.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof of all family members",
+          "Address proof"
+        ]
+      },
+      {
+        "id": 8,
+        "category": "Certificate Services",
+        "name": "Legal Heir Certificate",
+        "description": "A document that establishes the relationship of the heirs to the deceased, used in succession of property.",
+        "documents_needed": [
+          "Application form",
+          "Death certificate of the deceased",
+          "Identity proof of heirs",
+          "Address proof"
+        ]
+      },
+      {
+        "id": 9,
+        "category": "Certificate Services",
+        "name": "Certified Copy",
+        "description": "A copy of a document that is certified as a true copy by a government authority.",
+        "documents_needed": [
+          "Application form",
+          "Original document (for verification)",
+          "Identity proof"
+        ]
+      },
+      {
+        "id": 10,
+        "category": "Certificate Services",
+        "name": "Marriage / Birth / Death Registrations",
+        "description": "Official registration of marriage, birth, or death with the government.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Marriage/Birth/Death certificate (if applicable)",
+          "Address proof"
+        ]
+      },
+      {
+        "id": 11,
+        "category": "Certificate Services",
+        "name": "Encumbrance Certificate",
+        "description": "A certificate that confirms that a property is free from any legal or monetary liabilities.",
+        "documents_needed": [
+          "Application form",
+          "Property details (Survey number, location)",
+          "Proof of property ownership"
+        ]
+      },
+      {
+        "id": 12,
+        "category": "Certificate Services",
+        "name": "UDID Card",
+        "description": "A unique disability ID card issued by the government, certifying a person's disability status.",
+        "documents_needed": [
+          "Application form",
+          "Disability certificate",
+          "Identity proof",
+          "Address proof"
+        ]
+      },
+      {
+        "id": 13,
+        "category": "Identification & Documentation",
+        "name": "Passport",
+        "description": "A travel document issued by the government that certifies the identity and nationality of the holder for international travel.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Address proof",
+          "Birth certificate",
+          "Passport size photos"
+        ]
+      },
+      {
+        "id": 14,
+        "category": "Identification & Documentation",
+        "name": "Passport PCC",
+        "description": "A Police Clearance Certificate (PCC) is issued to Indian passport holders who are looking to obtain a visa for certain countries.",
+        "documents_needed": [
+          "Application form",
+          "Passport copy",
+          "Address proof",
+          "Identity proof"
+        ]
+      },
+      {
+        "id": 15,
+        "category": "Identification & Documentation",
+        "name": "PAN Card",
+        "description": "A Permanent Account Number (PAN) card is a unique ten-digit alphanumeric identity issued by the Income Tax Department.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Address proof",
+          "Date of birth proof"
+        ]
+      },
+      {
+        "id": 16,
+        "category": "Identification & Documentation",
+        "name": "Voter ID Card",
+        "description": "An identity card issued by the Election Commission of India that allows the holder to vote in elections.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Address proof",
+          "Age proof"
+        ]
+      },
+      {
+        "id": 17,
+        "category": "Identification & Documentation",
+        "name": "Aadhaar Services",
+        "description": "Services related to Aadhaar, such as new registration, updates, corrections, and mobile linking.",
+        "documents_needed": [
+          "Identity proof",
+          "Address proof",
+          "Date of birth proof (for new Aadhaar)",
+          "Mobile number"
+        ]
+      },
+      {
+        "id": 18,
+        "category": "Identification & Documentation",
+        "name": "NORKA ID Card",
+        "description": "An ID card issued by NORKA (Non-Resident Keralites Affairs) to provide various benefits and services to Keralites living abroad.",
+        "documents_needed": [
+          "Application form",
+          "Passport copy",
+          "Address proof",
+          "Identity proof"
+        ]
+      },
+      {
+        "id": 19,
+        "category": "Identification & Documentation",
+        "name": "Udyog Aadhaar",
+        "description": "A unique identification number provided by the Ministry of Micro, Small and Medium Enterprises (MSMEs) for small businesses.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Business registration proof"
+        ]
+      },
+      {
+        "id": 20,
+        "category": "Utility Bills & Services",
+        "name": "KSEB Bill",
+        "description": "Bill payment for Kerala State Electricity Board (KSEB) services.",
+        "documents_needed": [
+          "Consumer number",
+          "Payment method details (bank, card)"
+        ]
+      },
+      {
+        "id": 21,
+        "category": "Utility Bills & Services",
+        "name": "Water Bill",
+        "description": "Bill payment for water supply services.",
+        "documents_needed": [
+          "Consumer number",
+          "Payment method details"
+        ]
+      },
+      {
+        "id": 22,
+        "category": "Utility Bills & Services",
+        "name": "Phone Bill",
+        "description": "Bill payment for phone services.",
+        "documents_needed": [
+          "Consumer number",
+          "Payment method details"
+        ]
+      },
+      {
+        "id": 23,
+        "category": "Utility Bills & Services",
+        "name": "Gas Mustering",
+        "description": "Service related to gas connection verification and updates.",
+        "documents_needed": [
+          "Consumer number",
+          "Aadhaar card",
+          "Gas connection documents"
+        ]
+      },
+      {
+        "id": 24,
+        "category": "Government Registrations & Applications",
+        "name": "University Registrations and Fee Payments",
+        "description": "Online registrations and fee payments for university courses.",
+        "documents_needed": [
+          "Application form",
+          "Previous academic records",
+          "Identity proof",
+          "Payment receipt"
+        ]
+      },
+      {
+        "id": 25,
+        "category": "Government Registrations & Applications",
+        "name": "Admission Online Registrations",
+        "description": "Online registrations for academic course admissions.",
+        "documents_needed": [
+          "Application form",
+          "Previous academic records",
+          "Identity proof"
+        ]
+      },
+      {
+        "id": 26,
+        "category": "Government Registrations & Applications",
+        "name": "Online Applications & Registrations",
+        "description": "General online applications and registrations for various government services.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Service-specific documents"
+        ]
+      },
+      {
+        "id": 27,
+        "category": "Ration Card Services",
+        "name": "New Ration Card",
+        "description": "Application for a new ration card, which provides subsidized food and fuel to eligible families.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Address proof",
+          "Income proof"
+        ]
+      },
+      {
+        "id": 28,
+        "category": "Ration Card Services",
+        "name": "Address Change in Ration Card",
+        "description": "Request for changing the address on an existing ration card.",
+        "documents_needed": [
+          "Application form",
+          "Existing ration card",
+          "New address proof"
+        ]
+      },
+      {
+        "id": 29,
+        "category": "Ration Card Services",
+        "name": "New Member Addition to Ration Card",
+        "description": "Addition of a new family member to an existing ration card.",
+        "documents_needed": [
+          "Application form",
+          "Existing ration card",
+          "New member's identity proof",
+          "Birth certificate (for minors)"
+        ]
+      },
+      {
+        "id": 30,
+        "category": "Ration Card Services",
+        "name": "Member Deletion in Ration Card",
+        "description": "Request for deletion of a family member from the ration card.",
+        "documents_needed": [
+          "Application form",
+          "Existing ration card",
+          "Identity proof of the member being deleted",
+          "Death certificate (if applicable)"
+        ]
+      },
+      {
+        "id": 31,
+        "category": "NORKA Services",
+        "name": "NORKA Registration",
+        "description": "Registration with NORKA (Non-Resident Keralites Affairs) for availing benefits and services.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Passport copy"
+        ]
+      },
+      {
+        "id": 32,
+        "category": "NORKA Services",
+        "name": "NORKA Attestation",
+        "description": "Attestation of documents for Keralites residing abroad, provided by NORKA.",
+        "documents_needed": [
+          "Documents for attestation",
+          "Identity proof",
+          "Passport copy"
+        ]
+      },
+      {
+        "id": 33,
+        "category": "NORKA Services",
+        "name": "NORKA Certificate",
+        "description": "Certificate provided by NORKA for various official purposes.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Passport copy"
+        ]
+      },
+      {
+        "id": 34,
+        "category": "Pension Services",
+        "name": "Pension Application",
+        "description": "Application for pension benefits.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Bank account details",
+          "Proof of age",
+          "Employment records"
+        ]
+      },
+      {
+        "id": 35,
+        "category": "Pension Services",
+        "name": "Pension Continuation",
+        "description": "Process for continuation of pension benefits after initial approval.",
+        "documents_needed": [
+          "Pension certificate",
+          "Identity proof",
+          "Life certificate"
+        ]
+      },
+      {
+        "id": 36,
+        "category": "Pension Services",
+        "name": "Pension Account Change",
+        "description": "Request for changing the bank account details linked to pension benefits.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "New bank account details",
+          "Pension certificate"
+        ]
+      },
+      {
+        "id": 37,
+        "category": "Vehicle Services",
+        "name": "Vehicle Registration",
+        "description": "Registration of a new or used vehicle with the transport department.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Address proof",
+          "Vehicle purchase documents",
+          "Insurance certificate"
+        ]
+      },
+      {
+        "id": 38,
+        "category": "Vehicle Services",
+        "name": "Transfer of Ownership",
+        "description": "Transfer of vehicle ownership to another individual.",
+        "documents_needed": [
+          "Application form",
+          "Original registration certificate",
+          "Sale agreement",
+          "Identity proof of buyer and seller"
+        ]
+      },
+      {
+        "id": 39,
+        "category": "Vehicle Services",
+        "name": "Duplicate Registration Certificate",
+        "description": "Issuance of a duplicate registration certificate in case of loss or damage.",
+        "documents_needed": [
+          "Application form",
+          "Police report (in case of loss)",
+          "Identity proof",
+          "Affidavit"
+        ]
+      },
+      {
+        "id": 40,
+        "category": "Vehicle Services",
+        "name": "NOC for Vehicle Transfer",
+        "description": "No Objection Certificate (NOC) for transferring a vehicle to another state.",
+        "documents_needed": [
+          "Application form",
+          "Registration certificate",
+          "Insurance certificate",
+          "Identity proof"
+        ]
+      },
+      {
+        "id": 41,
+        "category": "Vehicle Services",
+        "name": "Vehicle Fitness Certificate",
+        "description": "Certificate that confirms the roadworthiness of a vehicle.",
+        "documents_needed": [
+          "Application form",
+          "Registration certificate",
+          "Insurance certificate",
+          "Pollution under control certificate"
+        ]
+      },
+      {
+        "id": 42,
+        "category": "Miscellaneous Services",
+        "name": "Affidavit Preparation",
+        "description": "Preparation of affidavits for various legal purposes.",
+        "documents_needed": [
+          "Application form",
+          "Identity proof",
+          "Details of affidavit content"
+        ]
+      },
+      {
+        "id": 43,
+        "category": "Miscellaneous Services",
+        "name": "Document Attestation",
+        "description": "Attestation of various documents by authorized officials.",
+        "documents_needed": [
+          "Documents for attestation",
+          "Identity proof"
+        ]
+      },
+      {
+        "id": 44,
+        "category": "Miscellaneous Services",
+        "name": "Notary Services",
+        "description": "Notarization of documents by a legally authorized notary.",
+        "documents_needed": [
+          "Documents for notarization",
+          "Identity proof"
+        ]
+      }
+    ]
+  }
+  
