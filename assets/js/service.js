@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let servicesData = [];
 
     function fetchAndDisplayServices() {
-        fetch('assets/json/services.json') // URL to your JSON file
+        fetch('https://brucebitchx.github.io/enteakshaya-demo/assets/json/services.json') // Make sure this is correct relative to your HTML file // URL to your JSON file
             .then(response => response.json())
             .then(data => {
                 servicesData = data.services;
