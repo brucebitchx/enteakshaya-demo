@@ -339,7 +339,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const postsContainer = document.getElementById('posts-container');
 
   function fetchAndDisplayPosts() {
-      fetch('assets/json/instagram-posts.json') // Path to your JSON file
+      fetch('https://brucebitchx.github.io/enteakshaya-demo/assets/json/instagram-posts.json') // Path to your JSON file
           .then(response => response.json())
           .then(posts => {
               populatePosts(posts);
