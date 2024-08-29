@@ -1,10 +1,4 @@
-/**
-* Template Name: BizLand
-* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
@@ -29,9 +23,9 @@
 
   function mobileNavToogle() {
     document.querySelector('body').classList.toggle('mobile-nav-active');
-    mobileNavToggleBtn.textContent = mobileNavToggleBtn.textContent === '✖' ? '☰' : '✖'; 
+    mobileNavToggleBtn.classList.toggle('bi-list');
+    mobileNavToggleBtn.classList.toggle('bi-x');
   }
-  
   mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
 
   /**
@@ -339,7 +333,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const postsContainer = document.getElementById('posts-container');
 
   function fetchAndDisplayPosts() {
-      fetch('https://brucebitchx.github.io/enteakshaya-demo/assets/json/instagram-posts.json') // Path to your JSON file
+      fetch('assets/json/instagram-posts.json') // Path to your JSON file
           .then(response => response.json())
           .then(posts => {
               populatePosts(posts);
