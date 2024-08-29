@@ -486,10 +486,11 @@ h6 {
     overflow: hidden;
   }
 
-  /* Mobile Nav Toggle Icon */
+  
+    /* Mobile Nav Toggle Icon */
   .mobile-nav-toggle {
-    font-size: 50px; /* Increase icon size */
-    color: #fff; /* Change icon color to white */
+    font-size: 30px; /* Adjust font size as needed */
+    color: #fff; /* Ensure the color is white */
     position: absolute;
     top: 15px;
     right: 15px;
@@ -501,30 +502,27 @@ h6 {
   .mobile-nav-toggle:hover {
     color: var(--accent-color); /* Add hover effect */
   }
-
-
+  
   .mobile-nav-active .mobile-nav-toggle {
-    color: #fff; /* Change icon color to white */
-    position: absolute;
-    font-size: 40px; /* Increase icon size */
+    color: #fff; /* Ensure the color is white when active */
+    font-size: 40px; /* Adjust font size when active */
     top: 15px;
     right: 15px;
-    margin-right: 0;
     z-index: 9999;
   }
-
+  
   .mobile-nav-active .navmenu {
     position: fixed;
     overflow: hidden;
     inset: 0;
-    background: rgba(33, 37, 41, 0.8);
+    background: rgba(33, 37, 41, 0.8); /* Dark background when active */
     transition: 0.3s;
   }
-
+  
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
-}
+
 
 
 /*--------------------------------------------------------------
