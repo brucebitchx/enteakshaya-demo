@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Example service data; replace with your actual data
     { id: 1, title: 'Certificate Services', icon: 'bi-award', description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi', details: 'Detailed information about Certificate Services.' },
     { id: 2, title: 'Identification & Documentation', icon: 'bi-file-text', description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi', details: 'Detailed information about Identification & Documentation.' },
-    { id: 3, title: 'Utility Bills & Services', icon: 'bi-receipt', description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi', details: 'Detailed information about Utility Bills & Services.' },
+    { id: 3, title: 'Provident Fund', icon: 'bi-receipt', description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi', details: 'Detailed information about Employee Provident Fund.' },
     // Add more services with detailed information
   ];
 

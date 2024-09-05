@@ -227,7 +227,7 @@
       },
       {
         "id": 20,
-        "category": "Utility Bills & Services",
+        "category": "Employee Provident Fund",
         "name": "KSEB Bill",
         "description": "Bill payment for Kerala State Electricity Board (KSEB) services.",
         "documents_needed": [
@@ -237,7 +237,7 @@
       },
       {
         "id": 21,
-        "category": "Utility Bills & Services",
+        "category": "Employee Provident Fund",
         "name": "Water Bill",
         "description": "Bill payment for water supply services.",
         "documents_needed": [
@@ -247,7 +247,7 @@
       },
       {
         "id": 22,
-        "category": "Utility Bills & Services",
+        "category": "Employee Provident Fund",
         "name": "Phone Bill",
         "description": "Bill payment for phone services.",
         "documents_needed": [
@@ -257,7 +257,7 @@
       },
       {
         "id": 23,
-        "category": "Utility Bills & Services",
+        "category": "Employee Provident Fund",
         "name": "Gas Mustering",
         "description": "Service related to gas connection verification and updates.",
         "documents_needed": [
@@ -506,6 +506,58 @@
         "documents_needed": [
           "Documents for notarization",
           "Identity proof"
+        ]
+      },
+      {
+        "id": 45,
+        "category": "Employee Provident Fund",
+        "name": "PF-UAN ACTIVATION",
+        "description": "Activate your UAN (Universal Account Number) to access and manage your EPF (Employees' Provident Fund)",
+        "documents_needed": [
+          "UAN Number",
+          "Aadhaar card",
+          "AAdhaar linked mobile number",
+          "Pan card"
+        ]
+      },
+      {
+        "id": 46,
+        "category": "Employee Provident Fund",
+        "name": "PF WITHDRAWAL",
+        "description": "Employees can withdraw the funds after retirement, or partially in cases like unemployment, medical emergencies, or other specific reasons.",
+        "documents_needed": [
+          "UAN Number",
+          "Bank Passbook",
+          "AAdhaar linked mobile number",
+          "Pan card",
+          "Form 15G are applicable"
+        ]
+      },
+      {
+        "id": 47,
+        "category": "Employee Provident Fund",
+        "name": "PF-EKYC",
+        "description": "eKYC in PF is the process of linking your Aadhaar and other personal details with your Provident Fund account.",
+        "documents_needed": [
+          "UAN Number",
+          "Bank Passbook",
+          "Aadhaar card",
+          "AAdhaar linked mobile number",
+          "Pan card"
+        ]
+      },
+      {
+        "id": 48,
+        "category": "Employee Provident Fund",
+        "name": "PF-MEMBER TRANSFER ACCOUNT",
+        "description": "to move your Provident Fund balance from your old employer to your new one. This helps keep all your PF savings in one account when you change jobs.",
+        "documents_needed": [
+          "UAN Number",
+          "Aadhaar card",
+          "AAdhaar linked mobile number",
+          "Bank Passbook",
+          "Previous Employment Details",
+          "Pan card"
         ]
       }
     ]
