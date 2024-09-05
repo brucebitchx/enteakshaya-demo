@@ -487,13 +487,20 @@ h6 {
   }
 
   .mobile-nav-active .mobile-nav-toggle {
-    color: #fff;
+    color: var(--icon-color, #fff); /* Use a variable or fallback color */
+    font-size: 32px; /* Keep the size large enough */
     position: absolute;
-    font-size: 32px;
-    top: 15px;
-    right: 15px;
+    top: 15px; /* Adjust top positioning */
+    right: 15px; /* Adjust right positioning */
     margin-right: 0;
-    z-index: 9999;
+    z-index: 9999; /* Ensure it's above other elements */
+  }
+
+  .mobile-nav-toggle {
+    font-size: 32px;
+    color: var(--icon-color, #000); /* Ensure the color contrasts with the background */
+    display: block; /* Ensure it's displayed */
+    z-index: 1000; /* Keep it above other content */
   }
 
   .mobile-nav-active .navmenu {
@@ -502,9 +509,10 @@ h6 {
     inset: 0;
     background: rgba(33, 37, 41, 0.8);
     transition: 0.3s;
+    z-index: 9998; /* Adjust to be below the icon */
   }
 
-  .mobile-nav-active .navmenu>ul {
+  .mobile-nav-active .navmenu > ul {
     display: block;
   }
 }
